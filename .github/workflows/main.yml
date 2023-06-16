@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: 204.93.224.85
+        server: 
         username: techno@techno-mx.com 
         password: ${{ secrets.Techno }} 
